@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía de Ejercicios JavaScript</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .description {
+            color: #7f8c8d;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .exercises-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .exercise-card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: 1px solid #eee;
+        }
+        .exercise-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        .exercise-card h2 {
+            color: #3498db;
+            margin-bottom: 10px;
+            font-size: 1.3rem;
+        }
+        .exercise-card p {
+            color: #7f8c8d;
+            margin-bottom: 15px;
+            font-size: 0.9rem;
+        }
+        .exercise-link {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            font-weight: 500;
+            transition: background-color 0.3s;
+        }
+        .exercise-link:hover {
+            background-color: #2980b9;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Guía de Ejercicios JavaScript</h1>
+            <p class="description">
+                Soluciones completas a los 12 ejercicios de la guía práctica de JavaScript para 
+                la materia "Desarrollo de aplicaciones web del IFTS 18". 
+                Cada ejercicio implementa diferentes conceptos del lenguaje.
+            </p>
+        </header>
+
+        <div class="exercises-grid">
+            <!-- Ejercicio 1 -->
+            <div class="exercise-card">
+                <h2>Ejercicio 1: Mensajes básicos</h2>
+                <p>Muestra mensajes con caracteres de escape incluyendo comillas simples y dobles.</p>
+                <a href="ejercicio1/index.html" class="exercise-link">Ver solución</a>
+            </div>
+
+            <!-- Ejercicio 2 -->
+            <div class="exercise-card">
+                <h2>Ejercicio 2: Días de la semana</h2>
+                <p>Muestra los días de la semana y sus números correspondientes usando un arreglo.</p>
+                <a href="ejercicio2/index.html" class="exercise-link">Ver solución</a>
+            </div>
+
+            <!-- Ejercicio 3 -->
+            <div class="exercise-card">
+                <h2>Ejercicio 3: Par o impar</h2>
+                <p>Determina si un número ingresado por el usuario es par o impar.</p>
+                <a href="ejercicio3/index.html" class="exercise-link">Ver solución</a>
+            </div>
+
+            <!-- Ejercicio 4 -->
+            <div class="exercise-card">
+                <h2>Ejercicio 4: Analizador de texto</h2>
+                <p>Determina si una cadena contiene mayúsculas, minúsculas o ambas.</p>
+                <a href="ejercicio4/index.html" class="exercise-link">Ver solución</a>
+            </div>
+
+            <!-- Ejercicio 5 -->
+            <div class="exercise-card">
+                <h2>Ejercicio 5: Formatear nombre</h2>
+                <p>Formatea un nombre y apellido según especificaciones dadas.</p>
+                <a href="ejercicio5/index.html" class="exercise-link">Ver solución</a>
+            </div>
+
+            <!-- Ejercicio 6 -->
+            <div class="exercise-card">
+                <h2>Ejercicio 6: Calculadora</h2>
+                <p>Calculadora simple con radio buttons para seleccionar la operación.</p>
+                <a href="ejercicio6/index.html" class="exercise-link">Ver solución</a>
+            </div>
+
+            <!-- Ejercicio 7 -->
+            <div class="exercise-card">
+                <h2>Ejercicio 7: Cambiar color</h2>
+                <p>Función para cambiar el color de fondo de un cuadro de texto.</p>
+                <a href="ejercicio7/index.html" class="exercise-link">Ver solución</a>
+            </div>
+
+            <!-- Ejercicio 8 -->
+            <div class="exercise-card">
+                <h2>Ejercicio 8: Mostrar/ocultar</h2>
+                <p>Muestra u oculta contenido usando clases CSS y JavaScript.</p>
+                <a href="ejercicio8/index.html" class="exercise-link">Ver solución</a>
+            </div>
+
+            <!-- Ejercicio 9 -->
+            <div class="exercise-card">
+                <h2>Ejercicio 9: Validación básica</h2>
+                <p>Valida un formulario con datos personales (nombre, apellido, DNI, sexo).</p>
+                <a href="ejercicio9/index.html" class="exercise-link">Ver solución</a>
+            </div>
+
+            <!-- Ejercicio 10 -->
+            <div class="exercise-card">
+                <h2>Ejercicio 10: Mensajes en rojo</h2>
+                <p>Mejora del ejercicio 9 mostrando mensajes de error en rojo.</p>
+                <a href="ejercicio10/index.html" class="exercise-link">Ver solución</a>
+            </div>
+
+            <!-- Ejercicio 11 -->
+            <div class="exercise-card">
+                <h2>Ejercicio 11: Eventos</h2>
+                <p>Respuesta a eventos de mouse y teclado para cambiar colores.</p>
+                <a href="ejercicio11/index.html" class="exercise-link">Ver solución</a>
+            </div>
+
+            <!-- Ejercicio 12 -->
+            <div class="exercise-card">
+                <h2>Ejercicio 12: Solo números</h2>
+                <p>Validación para permitir solo números en un cuadro de texto.</p>
+                <a href="ejercicio12/index.html" class="exercise-link">Ver solución</a>
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2025 Guía de Ejercicios JavaScript realizados por Emmanuel Ledesma - Todos los derechos reservados</p>
+        </footer>
+    </div>
+</body>
+</html>
