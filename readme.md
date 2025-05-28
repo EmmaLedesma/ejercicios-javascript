@@ -10,16 +10,6 @@ Este repositorio contiene las soluciones a los ejercicios de la Guía de JavaScr
 │ ├── index.html # Página del ejercicio
 │ ├── script.js # Código JavaScript
 │ └── style.css # Estilos CSS
-├── /ejercicio2/
-│ ├── index.html
-│ ├── script.js
-│ └── style.css
-...
-└── /ejercicio12/
-├── index.html
-├── script.js
-└── style.css
-
 
 ## Cómo usar
 
